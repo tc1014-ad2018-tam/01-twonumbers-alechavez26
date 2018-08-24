@@ -1,0 +1,40 @@
+/*El programa nos ayudara a calcular las operaciones bÃ¡sicas.
+ * File:   main.c
+ * Alejandra Chavez Cruz
+ * correo: 041411970@itesm.mx
+ * Created on 23 de agosto de 2018, 09:12 PM
+ */
+#include <stdio.h>
+
+
+int main(void) {
+   //Declaracion de variables
+    int num1;
+    int num2;
+    int suma; 
+    int resta;
+    int multiplicacion;
+    double division;
+
+
+    //Aqui le pido al usuario que me de 2 numeros.
+    printf("Hola, te ayudare a realizar distintas operaciones basicas.");
+    printf("Introduce un numero: ");
+    scanf("%i" , &num1);
+    printf("Introduce el segundo numero: ");
+    scanf("%i", &num2);
+
+    //Aqui se calcula depende la operacion
+    suma= num1 + num2;
+    resta= num1 - num2;
+    multiplicacion = num1 * num2;
+    division= num1 /num2;
+
+    //Aqui aparece el resultado de sus operaciones
+    printf:("el resultado de la suma es: %i\n", suma);
+    printf("el resultado de la resta es: %i\n", resta);
+    printf("el resultado de la multiplicacion es: %i\n", multiplicacion);
+    printf("el resultado de la division es: %lf\n", division);
+  
+   return 0;
+  }
